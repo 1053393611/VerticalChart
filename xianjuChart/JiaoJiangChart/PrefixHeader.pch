@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  JiaoJiangChart
+//
+//  Created by 钟程 on 2018/9/13.
+//  Copyright © 2018年 钟程. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#import <FMDB.h>
+#import <WXApi.h>
+#import <AFNetworking.h>
+
+#import "DefaultConfig.h"
+#import "UIColor+ReadBank.h"
+#import "JCAlertController.h"
+#import "GCDQueue.h"
+#import "GCDGroup.h"
+
+#import "ListModel.h"
+#import "DetailModel.h"
+
+#import "FileManager.h"
+#import "FMDBManager.h"
+#import "FMDBManager+TableList.h"
+#import "FMDBManager+Detail.h"
+
+#import "IndicatorManger.h"
+
+#import "NetworkManager+aboutLogin.h"
+
+
+#endif /* PrefixHeader_pch */

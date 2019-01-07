@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  chart
+//
+//  Created by 钟程 on 2018/10/12.
+//  Copyright © 2018 钟程. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry.h>
+#import <FMDB.h>
+#import <WXApi.h>
+#import <AFNetworking.h>
+
+#import "JCAlertController.h"
+#import "JJStockView.h"
+
+#import "DefaultConfig.h"
+#import "UIColor+ReadBank.h"
+#import "UIView+xib.h"
+#import "MoneyResult.h"
+#import "DataManager.h"
+
+#import "ListModel.h"
+#import "DetailModel.h"
+
+#import "GCDQueue.h"
+#import "GCDGroup.h"
+#import "FileManager.h"
+#import "FMDBManager.h"
+#import "FMDBManager+TableList.h"
+#import "FMDBManager+Detail.h"
+
+#import "UIView+border.h"
+
+#import "IndicatorManger.h"
+
+#import "NetworkManager+aboutLogin.h"
+
+#define cellMax 121
+
+#endif /* PrefixHeader_pch */
